@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000000;
+  color: #FFFFFF;
+  list-style-type: none;
+  padding: 3vh 3vw;
+}
+
+#ig-img-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#ig-img-wrapper * {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: capitalize;
+}
